@@ -288,11 +288,58 @@
 //     }
 // }
 
-try {
-    console.log(a)
-} catch {
-    console.log("variable a does not")
-}
+// try {
+//     console.log(a)
+// } catch {
+//     console.log("variable a does not")
+// }
+
+
+// let num = [2, 6, 4, 7, 3, 1, 8, 9];
+
+// let even = num.filter((el) =>{
+
+//     return el%2==0;
+
+// });
+
+let num = [10, 30, 50];
+
+// let sum = num.reduce((res, el)=>{
+//     return (res+el);
+// });
+
+// let max = num.reduce((max, el)=>{
+//     if(max<el){
+//         return el;
+//     }else{
+//         return max;
+//     }
+// });
+
+// console.log(max);
+
+// let ten = num.every((el)=>{
+//     return el%10==0;
+// });
+// console.log(ten);
+
+let arr = [3, 8, 0, 7, 9];
+
+let min = arr.reduce((min, el)=>{
+    if(min>el){
+        return el;
+    }
+    else{
+        return min;
+    }
+})
+
+
+
+
+
+
 
  
 
